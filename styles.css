@@ -1,0 +1,91 @@
+/* Basic CSS styling */
+
+
+/* Reset default margin and padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #00B5E2;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+}
+
+nav {
+    width: 80%;
+    height: 5px;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    flex-basis: 20%;
+    width: 75px;
+    height: 80px;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 10px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+main {
+    background-image: url(Images/Homebackground.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
